@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+:root{
+  --color1:#11213B;
+  --color2:#30425F;
+  --color3:#303A49;
+  --color4:#9C9FA5;
+  --color5:#2D2F31;
+
+  --font1:'Roboto', Arial, Helvetica, sans-serif;
+  --font2:'Kdam Thmor Pro', sans-serif;
+}
+  
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  color: white;
+  font-family: var(--font2);
+  text-align: center;
+  background-image: linear-gradient(to top ,#45C7FF,#231FF5);
+  text-shadow: 3px -2px 1px rgba(0, 0, 0, 0.507);
+}
+header h1{
+  font-variant: small-caps;
+  padding: 20px;
+}
+header >p{
+  padding-bottom: 15px;
+}
+div{
+  background-color:#1281DE;
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  flex-direction:row ;
+  align-items: center ;
+  justify-content: space-around;
+}
+div a{
+
+text-decoration: none;
+text-align: center;
+padding: 10px;
+/* display: flex; */
+color: white;
+}
+div a:hover{
+  font-size: 2.5;
+  color: red;
+  text-decoration: underline;
+  background-color: white;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+main{
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  font-family: var(--font1);
+  line-height: 1.5em;
+  font-size: 1.5em;
+  
+}
+aside>ul{
+  list-style-type:'\2714\00A0\00A0';
+}
+section.normal{
+  background-color: #11213B;
+  padding: 40px;
+  
+
+}
+section p{
+  padding-bottom: 1em;
+}
+section.img{
+  background-color: black;
+  padding: 40px;
+  background-color: red;
+  
+}
+section#img01{
+  background-image: url(imagens/calculator-385506_1920.jpg);
+  background-size: cover;
+  background-position: left center;
+}
+section#img02{
+  background-image: url(imagens/piggy-bank-2889042_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+footer{
+  background-color: #11213B;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: #1281DE;
+}
