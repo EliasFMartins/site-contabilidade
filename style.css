@@ -5,9 +5,9 @@
 :root{
   --color1:#11213B;
   --color2:#30425F;
-  --color3:#303A49;
-  --color4:#9C9FA5;
-  --color5:#2D2F31;
+  --color3:#2D2F31;
+  --color4:#303A49;
+  --color5:#9C9FA5;
 
   --font1:'Roboto', Arial, Helvetica, sans-serif;
   --font2:'Kdam Thmor Pro', sans-serif;
@@ -21,7 +21,7 @@ header{
   color: white;
   font-family: var(--font2);
   text-align: center;
-  background-image: linear-gradient(to top ,#45C7FF,#231FF5);
+  background-image: linear-gradient(to right ,var(--color1),var(--color5));
   text-shadow: 3px -2px 1px rgba(0, 0, 0, 0.507);
 }
 
@@ -35,7 +35,7 @@ header >p{
 div{
   box-shadow: 10px 10px 10px black;
   font-size: 1.5em;
-  background-color:#570553;
+  background-color:#3d093b;
   align-items: center;
   display: flex;
   flex-direction:row ;
@@ -48,14 +48,15 @@ text-decoration: none;
 text-align: center;
 padding: 10px;
 /* display: flex; */
-color: rgb(231, 236, 240);
+color:white;
+text-shadow: 1px 1px 1px black;
 
 }
 div a:hover{
   font-size: 2.5;
-  color: red;
+  color:#dededf;
   text-decoration: underline;
-  background-color: rgb(194, 41, 41);
+  background-color:#11213B;
   border-radius: 10px;
   transition-duration: 1s;
 }
@@ -69,6 +70,9 @@ main{
   
 }
 main h2{
+  box-shadow: 1px -5px 5px rgba(0, 0, 0, 0.212);
+  margin-left:-40px; 
+  margin-right: -40px;
   color: white;
   font-family: var(--font2);
   font-size: 1.3em;
@@ -77,7 +81,8 @@ main h2{
   text-shadow:1px 1px 1px black;
 }
 section ul{
-  background-color: beige;
+  border-radius: 10px;
+  background-color:#D4F2FA;
   list-style-type:'\2714\00A0\00A0';
   list-style-position: inside;
   text-align: center;
@@ -111,9 +116,10 @@ section#img01{
   text-align: right;
 }
 section#img02{
+  text-align: justify;
   background-image: url(imagens/piggy-bank-2889042_1920.jpg);
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: left center;
 }
 footer{
   background-color: #000000;
