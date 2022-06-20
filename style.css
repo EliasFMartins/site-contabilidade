@@ -113,6 +113,7 @@ section.img{
   color: white;
   background-attachment: fixed;
   text-shadow:1px 1px 1px black;
+  -webkit-backdrop-filter: opacity(10);
   
 }
 section#img01{
@@ -136,4 +137,10 @@ footer{
 footer a{
   text-decoration: none;
   color: #1281DE;
+}
+footer a:hover{
+  text-decoration: none;
+  background-color: #5575FA;
+  text-decoration: underline;
+  color: #000000;
 }
