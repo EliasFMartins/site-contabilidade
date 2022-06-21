@@ -33,7 +33,7 @@ header >p{
   padding-bottom: 15px;
 }
 div{
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 14px -4px 10px rgba(0, 0, 0, 0.329);
   font-size: 1.5em;
   background-color:#3d093b;
   align-items: center;
