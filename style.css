@@ -21,7 +21,7 @@
 body{
   background-color:#cdc2e0;
   max-width: auto;
-  min-width: 625px;
+  min-width: 550px;
 
 }
 .container{
@@ -29,6 +29,7 @@ body{
   align-items: center;
   text-align: center;
   position: relative;
+  flex-direction: row-reverse;
   
 }
 .box{
