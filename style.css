@@ -21,7 +21,7 @@
 body{
   background-color:#cdc2e0;
   max-width: auto;
-  min-width: 550px;
+  min-width: 650px;
 
 }
 .container{
@@ -31,6 +31,7 @@ body{
   position: relative;
   line-height: 10px;
   margin: auto;
+  min-width: 366px;
   
 }
 .box{
@@ -45,10 +46,10 @@ header{
   
   color: white;
   font-family: var(--font2);
-  padding-top: 40px;
+
   
   text-align: center;
-  background-image: linear-gradient(to right,#270F0F ,#3d093b);
+  background-image: linear-gradient(to right,#270F0F ,#3d093b ,#570564);
   text-shadow: 3px -2px 1px rgba(0, 0, 0, 0.507);
 }
 
@@ -56,23 +57,25 @@ header h1{
   font-size: 3em;
   font-variant: small-caps;
   align-items: center;
-  min-width: 542px;
-  display: inline;
+  width: 30px;
+  display:inline-block;
+  align-items: center;
+  border: white solid 2px;
 }
-#sb{
-  display: block;
-}
+
+ 
+
 div{
   align-items: center;
 }
 header >h2{
   padding-bottom: 15px;
-  display: block;
+
 }
 div{
   box-shadow: 14px -4px 10px rgba(0, 0, 0, 0.329);
   font-size: 1.5em;
-  background-color:#3d093b;
+  background-color:#b69730;
   align-items: center;
   display: flex;
   flex-direction:row ;
