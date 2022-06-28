@@ -29,7 +29,8 @@ body{
   align-items: center;
   text-align: center;
   position: relative;
-  
+  line-height: 10px;
+  margin: auto;
   
 }
 .box{
