@@ -17,11 +17,16 @@
   margin: 0px;
   padding: 0px;
 }
+.container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 header{
   color: white;
   font-family: var(--font2);
   text-align: center;
-  background-image: linear-gradient(to right, #030061,#00357A,#05636E);
+  background-image: linear-gradient(to right,#270F0F ,#3d093b);
   text-shadow: 3px -2px 1px rgba(0, 0, 0, 0.507);
 }
 
