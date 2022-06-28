@@ -60,10 +60,13 @@ header h1{
   width: 30px;
   display:inline-block;
   align-items: center;
-  border: white solid 2px;
+  
 }
 
- 
+ h2{
+  text-decoration-line: none;
+  text-decoration-line: none;
+ }
 
 div{
   align-items: center;
